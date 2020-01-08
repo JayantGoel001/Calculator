@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:id="@+id/display"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+    <Button
+            android:text="@string/clear"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:text="@string/_7"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/seven"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_8"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/eight"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_9"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/nine"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/div"
+                android:background="@android:color/darker_gray"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:id="@+id/divide"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:text="@string/_4"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/four"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_5"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/five"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_6"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/six"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/multiply"
+                android:background="@android:color/darker_gray"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:id="@+id/multiply"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
+        <Button
+                android:text="@string/_1"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:padding="0dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="0dp"
+                android:layout_height="120dp"
+                android:id="@+id/one"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_2"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:padding="0dp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/two"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/_3"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/three"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/minus"
+                android:background="@android:color/darker_gray"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:id="@+id/minus"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:text="@string/_0"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/zero"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/dot"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/dot"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/equal"
+                android:background="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:id="@+id/output"
+            tools:ignore="ButtonStyle" />
+        <Button
+                android:text="@string/plus"
+                android:background="@android:color/darker_gray"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:id="@+id/plus"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
